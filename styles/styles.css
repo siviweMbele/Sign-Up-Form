@@ -1,0 +1,17 @@
+body
+{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('/images/bg-intro-desktop.png');
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+#mainheader
+{
+    font-size: 32px;
+    font-weight: bold;
+}
