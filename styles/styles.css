@@ -1,17 +1,55 @@
+@font-face {
+    font-family: Poppins-Black;
+    src: url('/assets/fonts/Poppins/Poppins-Black.ttf')
+}
+
 body
 {
     background-color: hsl(0, 100%, 74%) !important;
-    background-image: url('/images/bg-intro-desktop.png') !important;
-    font-family: 'poppins';
+    background-image: url('/assets/images/bg-intro-desktop.png') !important;
     font-size: 16px;
     color: #ffffff !important;
+    font-family: Poppins-Black;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a 
+{ color: hsl(228, 45%, 44%); }
 
-#mainheader
+
+#informationtext header
 {
     font-size: 32px;
     font-weight: bold;
 }
+
+#sign-up header 
+{
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4)!important;
+}
+
+#sign-up header span
+{
+    font-weight: bold;
+}
+
+#sign-up form{
+    background-color: #ffffff;
+}
+
+.pt-18 {
+    padding-top: 18.25rem !important;
+}
+
+.pt-12 {
+    padding-top: 12.25rem !important;
+}
+
+
+
