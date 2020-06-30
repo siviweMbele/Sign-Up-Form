@@ -1,17 +1,17 @@
 @font-face {
     font-family: Poppins-Bold;
-    src: url('/assets/fonts/Poppins/Poppins-Bold.ttf')
+    src: url('assets/fonts/Poppins/Poppins-Bold.ttf')
 }
 
 @font-face {
     font-family: Poppins-Regular;
-    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf')
+    src: url('assets/fonts/Poppins/Poppins-Regular.ttf')
 }
 
 body
 {
     background-color: hsl(0, 100%, 74%) !important;
-    background-image: url('/assets/images/bg-intro-desktop.png') !important;
+    background-image: url('assets/images/bg-intro-desktop.png') !important;
     font-size: 16px;
     color: #ffffff !important;
     font-family: Poppins-Regular !important;
