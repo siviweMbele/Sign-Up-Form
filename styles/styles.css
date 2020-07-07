@@ -46,10 +46,11 @@ body
 
 #sign-up form{
     background-color: #ffffff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4)!important;
 }
 
-.pt-18 {
-    padding-top: 18.25rem !important;
+.pt-10 {
+    padding-top: 10.25rem !important;
 }
 
 .pt-12 {
@@ -73,4 +74,5 @@ body
     color: hsl(0, 100%, 74%) !important;
     font-weight: bold;
 }
+
 
